@@ -236,4 +236,6 @@ local scrlist = {
 	},
 }
 
-return scrlist
+local data = game:GetService("HttpService"):JSONEncode(scrlist)
+
+return data
