@@ -1,0 +1,18 @@
+return {
+  "RobloxIsNotCoolV3",
+  "N_oobGamer",
+  "IIIIlllIIllllIIIll",
+  "mftmikey",
+  "chickensucc12345",
+  "eeSU_TARTee",
+  "TheSinnedEvil",
+  "ImABigNoobAtGaming",
+  "ForgottenSoulRoblox",
+  "eeatootvevovvooveovt",
+  "Montrogram",
+  "luisgamermcool23",
+  "TheCoolestCrocs",
+  "fredprogamer25",
+  "NxtFunny",
+  "FredsNegativeSide",
+}
