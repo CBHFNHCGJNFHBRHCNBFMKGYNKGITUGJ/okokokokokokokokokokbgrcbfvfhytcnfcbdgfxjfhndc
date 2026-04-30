@@ -1,16 +1,10 @@
 local scrlist = {
 	["New"] = {
-		{Name = "Patrick's Wraith", IsSafe = false, func = function(username) require(116282590768385).Patrick(username) end},
-		{Name = "All Seeing Hand", IsSafe = false, func = function(username) require(5375399205).Player(username) end},
-		{Name = "John Doe Forsaken", IsSafe = true, func = function(username) require(80147538511861).john(username) end},
-		{Name = "Sea Monkey", IsSafe = false, func = function(username) require(94673163261524)(username) end},
-		{Name = "Bluudude Forsaken", IsSafe = true, func = function(username) require(74432860446268).bluudude(username) end},
-		{Name = "VIP Jason Forsaken", IsSafe = true, func = function(username) require(93565035610376).jason(username) end},
-		{Name = "Bon The Rabbit", IsSafe = true, func = function(username) require(87513953915554).MorphMonster(username, "bontherabbit") end},
-		{Name = "Drill Car", IsSafe = false, func = function(username) require(11505758587).RAroblox(username) end},
+		{Name = "Infinite Yield FE Safe", IsSafe = true, func = function(username) require(110290995552446):LoadInfiniteYieldSafe(username) end},
+		{Name = "Cool Cabin Map", IsSafe = false, func = function(username) require(99927827120037).somemapthing() end},
 	},
 	["Misc"] = {
-		{Name = "Infinite Yield FE", IsSafe = false, func = function(username) require(11521219353)(username) end},
+		{Name = "Infinite Yield FE", IsSafe = false, func = function(username) require(95554397218737).iy(username,"unsafe") end},
 		{Name = "Chat Hax", IsSafe = false, func = function(username) require(79839127148741).poochat(username, {"POOPOO","CHATTHING","FUNNIFORCER"}) end},
 		{Name = "Gravity Gun", IsSafe = false, func = function(username) require(18222108638)(username) end},
 		{Name = "Ragdoll", IsSafe = true, func = function(username) require(95950760116240)(username) end},
@@ -44,6 +38,7 @@ local scrlist = {
 		{Name = "Wav Player (mono & http)", IsSafe = false, func = function(username) require(108628124835282).wp(username) end},
 		{Name = "Touch Grass", IsSafe = false, func = function(username) require(132376557058196)(username) end},
 		{Name = "Police Attack", IsSafe = false, func = function(username) require(123183664653416).VK(username) end},
+		{Name = "Patrick's Wraith", IsSafe = false, func = function(username) require(116282590768385).Patrick(username) end},
 	},
 	["Maps"] = {
 		{Name = "Chipotle", IsSafe = false, func = function(username) require(3752540403).chipotle() end},
@@ -215,6 +210,13 @@ local scrlist = {
 		{Name = "Ghost", IsSafe = true, func = function(username) require(118135344813595).load(username) end},
 		{Name = "Chips", IsSafe = true, func = function(username) require(130643363396166).load(username) end},
 		{Name = "Chara", IsSafe = true, func = function(username) require(90906826301544).require(username) end},
+		{Name = "All Seeing Hand", IsSafe = false, func = function(username) require(5375399205).Player(username) end},
+		{Name = "John Doe Forsaken", IsSafe = true, func = function(username) require(80147538511861).john(username) end},
+		{Name = "Sea Monkey", IsSafe = false, func = function(username) require(94673163261524)(username) end},
+		{Name = "Bluudude Forsaken", IsSafe = true, func = function(username) require(74432860446268).bluudude(username) end},
+		{Name = "VIP Jason Forsaken", IsSafe = true, func = function(username) require(93565035610376).jason(username) end},
+		{Name = "Bon The Rabbit", IsSafe = true, func = function(username) require(87513953915554).MorphMonster(username, "bontherabbit") end},
+		{Name = "Drill Car", IsSafe = false, func = function(username) require(11505758587).RAroblox(username) end},
 	},
 	["Legacy"] = {
 		{Name = "Sun", IsSafe = false, func = function(username) local e = require(96459846477055)("DeadlySun") e.load(username) end},
